@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IG.LOCAL</string>
+    <string name="username">saufaini</string>
+    <string name="post_count">6</string>
+    <string name="post_label">Post</string>
+    <string name="follower_count">860</string>
+    <string name="follower_label">Follower</string>
+    <string name="following_count">760</string>
+    <string name="following_label">Following</string>
+    <string name="bio">Buat App dengan UI seperti pada gambar terlampir.
+        \nGunakan LinearLayout / RelativeLayout / ConstrainLayout.
+        \nBuat se-creative mungkin dan pastikan data nama merupakan nama sesuai data mahasiswa.</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="share_profile">Share Profile</string>
+</resources>
