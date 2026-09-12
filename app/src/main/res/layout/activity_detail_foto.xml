@@ -9,16 +9,17 @@
 
     <ImageView
         android:id="@+id/img_detail_foto"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        android:layout_marginTop="90dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/profil_pic"
+        android:layout_width="281dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/circle_shape"
         android:clipToOutline="true"
-        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profil_pic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txt_detail_name"
@@ -38,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="@string/kembali"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
